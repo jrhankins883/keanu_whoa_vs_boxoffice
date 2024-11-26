@@ -1,7 +1,7 @@
 import requests
 
 # I'm establishing the variables I need in order to access the Keanu Reeves Filmography on TMDb
-API_KEY = '93b29bf0b851209878217fccd1d8ca1a'
+pass #I guess it's bad to braodcast an API key so I've removed it from this file.  Pull from the other file in this folder when working on the project.
 base_URL = "https://api.themoviedb.org"
 url = f"{base_URL}/person/{6384}/movie_credits?api_key={API_KEY}"
 response = requests.get(url)
