@@ -1,10 +1,6 @@
 # Ignore virtual environment folders
-.env
 new_env/
 
 # Ignore compiled Python files and caches
 *.pyc
 _pycache_/
-
-# Ignore backup data folder
-data_backup/
