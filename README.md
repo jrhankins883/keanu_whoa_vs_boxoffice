@@ -26,7 +26,39 @@ This project was developed as a Jupyter Notebook within a virtual environment (n
 Before getting started, make sure the following requirements are met:
 
 - Python Installed: This project was created using Python 3.12.8. If Python is not installed or you need to update to the latest version, download it from the official [Python website](https://www.python.org/).
+- Virtual Environment: Make sure a virtual environment is set up (instructions provided below).
 - Git Installed: Git is required to clone the repository. If it’s not already installed, you can find the download on the official [Git website](https://git-scm.com/).
+
+### Setting up the API Key
+This project requires an API key from The Movie Database (TMDb) to fetch movie data. Follow the steps below to get your API key and set it up:
+
+1. Sign Up for TMDb:
+- Go to [TMDb API Signup Page](https://api.themoviedb.org).
+- Create a free account and verify your email address.
+
+2. Get Your API Key:
+- After signing in, navigate to your account settings by clicking on your profile in the top-right corner.
+- Select API from the left menu.
+- Click Create or Generate to get your API key.
+
+3. Add the API Key to the Project:
+- Open the project folder.
+- Create a file named .env in the root directory (if it doesn’t already exist).
+- Add the following line to the .env file, replacing your_api_key_here with the API key you generated:
+```
+TMDB_API_KEY = your_api_key_here
+```
+
+4. Backup Method (Manual API Key Input):
+
+- If you are unable to use the .env file, the program will prompt you to manually enter the API key during runtime.
+
+5. Run the Project:
+- Install all dependencies by running:
+```
+pip install -r requirements.txt
+```
+- Run the project. Your .env file will securely load the API key, enabling all API requests to function correctly.
 
 ### Follow the instructions below to run the project on your local machine:
 
@@ -154,4 +186,3 @@ Performed basic text analysis (natural language processing):
 
 
 ![](https://tenor.com/view/thank-you-thanks-gif-19684718.gif)
->>>>>>> 12b8c193183bf89be4f875a9e12951a904377250
