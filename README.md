@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ![](https://tenor.com/view/hello-keanu-reeves-spongebob-movie-gif-15554698.gif)
 # Does a "Whoa" From Keanu Mean Big Box Office Numbers?
 
