@@ -1,5 +1,6 @@
 # Ignore virtual environment folders
 new_env/
+.env
 
 # Ignore compiled Python files and caches
 *.pyc
