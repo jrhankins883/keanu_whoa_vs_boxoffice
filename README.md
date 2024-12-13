@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ![](https://tenor.com/view/hello-keanu-reeves-spongebob-movie-gif-15554698.gif)
 # Does a "Whoa" From Keanu Mean Big Box Office Numbers?
 
@@ -21,7 +19,7 @@ API:
 
 # Instructions to Run the Project
 
-This project was developed as a Jupyter Notebook within a virtual environment (venv) in Visual Studio Code. The main project file, keanu_tmdb.ipynb, can be executed by following these steps:
+This project was developed as a Jupyter Notebook within a virtual environment (new_env) in Visual Studio Code. The main project file, keanu_tmdb.ipynb, can be executed by following these steps:
 
 ## Prerequisites
 
