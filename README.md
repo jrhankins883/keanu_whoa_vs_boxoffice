@@ -38,7 +38,7 @@ git clone https://github.com/jrhankins883/keanu_whoa_vs_boxoffice
 2. Navigate to the Cloned Directory -
 Change your current directory to the project folder:
 ```
-cd <PROJECT_DIRECTORY>
+cd keanu_whoa_vs_boxoffice
 ```
 3. Set Up a Virtual Environment -
 It is recommended to use a virtual environment to keep the project dependencies isolated. To create one, run the following command in your terminal:
@@ -66,6 +66,10 @@ Your terminal prompt will update to indicate that the virtual environment is act
 5. Install the Required Packages - 
 ```
 pip install -r requirements.txt
+```
+- If you don't have Jupyter installed, you can install it with:
+```
+pip install jupyter
 ```
 6. Run the Project -
 To execute the Jupyter Notebook file keanu_tmdb.ipynb, follow one of these methods:
@@ -100,9 +104,9 @@ The scatter plot is a little harder to glance at and make a conclusion to so I a
 ## Histogram - Distribution of "Whoas" Across Keanu Reeves Movies
 ![image](https://github.com/user-attachments/assets/a537e2fb-b637-405e-8817-25530989cd54)
 
-I added this graph to give an idea of how often Reeves says "whoa" at all. Turns out, it's not as often as I thought it would be. He says "whoa" less than 5 times in most of the movies where he says the signature word. Ultimately, my conclusion to this little experiment is that a lot of "whoas" have made for some great memes over the years but most of his success seems to stem from movies where he loses the stoner vibe (basically the *Bill and Ted* movies) and plays a hero. Although, I'd argue that Bill and Ted are heroes in their own right!
+I added this graph to give an idea of how often Reeves says "whoa" at all and it turns out that he doesn't say it as often as expected. He says "whoa" less than 5 times in most of the movies where he says the signature word. Ultimately, my conclusion to this little experiment is that a lot of "whoas" have made for some great memes over the years but most of his success seems to stem from movies where he loses the stoner vibe (basically the *Bill and Ted* movies) and plays a hero. Although, I'd argue that Bill and Ted are heroes in their own right!
 
-Maybe home video sales for the *Bill and Ted* movies were high and that's how "whoa" became a part of our pop culture? We can't argue the influence that Reeves has had on moviegoers since the early 90's but I think audiencds enjoy watching him play a hero (or love interest) more than watching him play a stoner who says "whoa" a lot. Clearly, based on these graphs, Reeves has left his mark on the world in more ways than one. 
+Maybe home video sales for the *Bill and Ted* movies were high and that's how "whoa" became a part of our pop culture? We can't argue the influence that Reeves has had on moviegoers since the early 90's but I think audiences enjoy watching him play a hero (or love interest) more than watching him play a stoner who says "whoa" a lot. Clearly, based on these graphs, Reeves has left his mark on the world in more ways than one. 
 
 # Code: You Data Analysis Final Project Requirements:
 1: Loading Data - Loaded a CSV files:
