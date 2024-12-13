@@ -53,13 +53,6 @@ TMDB_API_KEY = your_api_key_here
 
 - If you are unable to use the .env file, the program will prompt you to manually enter the API key during runtime.
 
-5. Run the Project:
-- Install all dependencies by running:
-```
-pip install -r requirements.txt
-```
-- Run the project. Your .env file will securely load the API key, enabling all API requests to function correctly.
-
 ### Follow the instructions below to run the project on your local machine:
 
 1. Clone the Repository -
@@ -93,7 +86,7 @@ This will create a virtual environment named venv in your current directory.
 ```
 source venv/bin/activate
 ```
-Your terminal prompt will update to indicate that the virtual environment is active.
+Your terminal prompt will update to indicate that the virtual environment is active. If it doesn't you may have to hit "Select Kernel" and then click on the newly created venv.
 
 5. Install the Required Packages - 
 ```
